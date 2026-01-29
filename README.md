@@ -29,3 +29,20 @@
 | Switch                     | Dell x1026         |
 |----------------------------|--------------------|
 
+
+
+
+## 1/25/2026
+Wiped the hard drives off of Machine 1, reinstalled the ProxMox 9.1.4 ISO to begin setting up a ProxMox Hypervisor setup. 
+
+Plugged ethernet from access port into Dell x1026, both machines got CAT 6a patch panel cables from the Dell x1026. 
+
+Went through ProxMox setup and created a Prox Enviroment. Connected from seperate PC to the Web UI. Created a LXC with Debian 12 (Bookworm)
+
+and assigned the LXC with 4 cores of CPU, 4 GB of ram and 27 GB of storage. Plans to upgrade in future, just testing for now. 
+
+Used console in LXC to install Docker daemon. Created a directory for Movie / TV storage. 
+
+Installed Jellyfin and Jellyseerr onto LXC. Ran through setup and created a library and a connection for both. 
+
+## 1/28/2026
